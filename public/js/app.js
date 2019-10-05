@@ -2,19 +2,19 @@
 var x = window.location.search.substr(1)
 let otCore;
 console.log(x);
-if(x=="password=csi"){
-  credentials1={
-    "apiKey": "YOUR_API_KEY",
-    "sessionId": "YOUR_SESSION_ID",
-    "token": "YOUR_TOKEN"
-  }}
-  else{
+// if(x=="password=csi"){
+//   credentials1={
+//     "apiKey": "46432862",
+//     "sessionId": "2_MX40NjQzMjg2Mn5-MTU3MDEzMTcxNTE1NX5kTlpweXgwb0VlYlVHU3RtRk1VdjVDdHl-fg",
+//     "token": "T1==cGFydG5lcl9pZD00NjQzMjg2MiZzaWc9ZDdkMDNmMDE3MGI3OWI3ZWQzMzA1YTA1NGQ1MTM1NTc0MzZkZmEzMjpzZXNzaW9uX2lkPTJfTVg0ME5qUXpNamcyTW41LU1UVTNNREV6TVRjeE5URTFOWDVrVGxwd2VYZ3diMFZsWWxWSFUzUnRSazFWZGpWRGRIbC1mZyZjcmVhdGVfdGltZT0xNTcwMTMxODQxJm5vbmNlPTAuODExMjg0ODE2NjIwMjYxMyZyb2xlPXB1Ymxpc2hlciZleHBpcmVfdGltZT0xNTcyNzIzODM4JmluaXRpYWxfbGF5b3V0X2NsYXNzX2xpc3Q9"
+//   }}
+//   else{
     credentials1={
-      "apiKey": "YOUR_API_KEY",
-      "sessionId": "YOUR_SESSION_ID",
-      "token": "YOUR_TOKEN"
+      "apiKey": "46432862",
+      "sessionId": "2_MX40NjQzMjg2Mn5-MTU3MDEzMTcxNTE1NX5kTlpweXgwb0VlYlVHU3RtRk1VdjVDdHl-fg",
+      "token": "T1==cGFydG5lcl9pZD00NjQzMjg2MiZzaWc9ZDdkMDNmMDE3MGI3OWI3ZWQzMzA1YTA1NGQ1MTM1NTc0MzZkZmEzMjpzZXNzaW9uX2lkPTJfTVg0ME5qUXpNamcyTW41LU1UVTNNREV6TVRjeE5URTFOWDVrVGxwd2VYZ3diMFZsWWxWSFUzUnRSazFWZGpWRGRIbC1mZyZjcmVhdGVfdGltZT0xNTcwMTMxODQxJm5vbmNlPTAuODExMjg0ODE2NjIwMjYxMyZyb2xlPXB1Ymxpc2hlciZleHBpcmVfdGltZT0xNTcyNzIzODM4JmluaXRpYWxfbGF5b3V0X2NsYXNzX2xpc3Q9"
     }
-  }
+  // }
 console.log(credentials1);
 var options = {
   // A container can either be a query selector or an HTMLElement

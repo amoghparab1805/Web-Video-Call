@@ -10,7 +10,7 @@ const bodyParser = require('body-parser');
  * Config
  */
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 5000;
 app.use(express.static(`${__dirname}/public`));
 app.use(bodyParser.json());
 
@@ -18,8 +18,16 @@ app.use(bodyParser.json());
  * User Routes
  */
 
+app.get('/make-call', (req, res) => {
+  res.sendfile('public/makeCallIndex.html');
+});
+
+app.get('/receive-call', (req, res) => {
+  res.sendfile('public/receiveCallIndex.html');
+});
+
 app.get('/', (req, res) => {
-  res.sendfile('public/index.html');
+  res.sendfile('public/index2.html');
 });
 
 /*
