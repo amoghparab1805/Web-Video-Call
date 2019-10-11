@@ -1,4 +1,4 @@
-# Webbie-Talkie
+# Web Video Call
 Web Application which allows multiple users to communicate live through a video call.
 
 ## Features
