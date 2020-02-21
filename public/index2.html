@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Hacksters</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://assets.tokbox.com/solutions/css/style.css">
@@ -24,20 +25,20 @@
 <body>
     <div class="App">
         <div class="App-header">
-            <img src="./images/logo.jpg" class="App-logo" alt="logo" />
-            </h1>Hacksters</h1>
+            <!-- <img src="./images/logo.jpg" class="App-logo" alt="logo" /> -->
+            </h1></h1>
         </div>
         <div class="App-main">
             <div id="controls" class='App-control-container hidden'>
                 <div class="ots-video-control circle audio" id="toggleLocalAudio"></div>
                 <div class="ots-video-control circle video" id="toggleLocalVideo"></div>
             </div>
-            <div class="App-video-container" id="appVideoContainer">
+            <div class="App-video-container" id="appVideoContainer" style="height: 300%">
                 <div class="App-mask" id="connecting-mask">
                     <progress-spinner dark style="font-size:50px"></progress-spinner>
                     <div class="message with-spinner">Connecting</div>
                 </div>
-                <div class="App-mask hidden" id="start-mask">
+                <div class="App-mask hidden" id="start-mask" style="margin: auto; color: white;">
                     <div class="message button clickable" id="start">Click to Start Call</div>
                 </div>
                 <div id="cameraPublisherContainer" class="video-container hidden"></div>
