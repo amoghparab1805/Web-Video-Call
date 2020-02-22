@@ -29,10 +29,6 @@
             </h1></h1>
         </div>
         <div class="App-main">
-            <div id="controls" class='App-control-container hidden'>
-                <div class="ots-video-control circle audio" id="toggleLocalAudio"></div>
-                <div class="ots-video-control circle video" id="toggleLocalVideo"></div>
-            </div>
             <div class="App-video-container" id="appVideoContainer" style="height: 300%">
                 <div class="App-mask" id="connecting-mask">
                     <progress-spinner dark style="font-size:50px"></progress-spinner>
@@ -46,7 +42,11 @@
                 <div id="cameraSubscriberContainer" class="video-container-hidden"></div>
                 <div id="screenSubscriberContainer" class="video-container-hidden"></div>
             </div>
-            <div id="chat" class="App-chat-container"></div>
+            <div id="controls" class='App-control-container hidden'>
+                <div class="ots-video-control circle audio" id="toggleLocalAudio"></div>
+                <div class="ots-video-control circle video" id="toggleLocalVideo"></div>
+            </div>
+            <div id="chat" class="App-chat-container" style="position: absolute; top: 360%; margin: 0 auto;"></div>
         </div>
     </div>
 
